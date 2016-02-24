@@ -1,6 +1,5 @@
 body{
-	background-image: "unit_3/images/spotmktghphero.jpg"
-  	text-align: center;
+	background: URL("unit_3/images/spotmktghphero.jpg") 
   	font-color: #000;
   	font-family: Arial;
 }
