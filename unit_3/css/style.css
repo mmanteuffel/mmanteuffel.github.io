@@ -1,10 +1,12 @@
 body {
-	background-image: ("unit_3/images/spotmktghphero.jpg") 
-  	font-color: #000;
-  	font-family: Arial;
-  	text-align: center;
+	background-image: url("../images/spotmktghphero.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+  	color: #222;
+  	font-family: Arial, helvetica, sans-serif;
+  	font-size:16px;
 }
 #slogan {
-	font-size: 32; 
+	font-size: 2em; 
 	font-weight: bold;
 }
