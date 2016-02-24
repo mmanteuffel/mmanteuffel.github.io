@@ -1,3 +1,7 @@
 body{
+	background-image: "unit_3/images/spotmktghphero.jpg"
+  	background-size: cover;
+  	color: #fff;
+  	font-family: Arial;
 }
 #slogan {font-size: 32; font-weight: bold;}
