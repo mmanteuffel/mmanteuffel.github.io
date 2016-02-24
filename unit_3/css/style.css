@@ -1,6 +1,10 @@
-body{
+body {
 	background: url("unit_3/images/spotmktghphero.jpg") 
   	font-color: #000;
   	font-family: Arial;
+  	text-align: center;
 }
-#slogan {font-size: 32; font-weight: bold;}
+#slogan {
+	font-size: 32; 
+	font-weight: bold;
+}
