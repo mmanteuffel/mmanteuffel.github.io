@@ -2,10 +2,10 @@ body {
 	background-image: url("../images/spotmktghphero.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	text-align: center;
   	color: #222;
   	font-family: Tahoma, Geneva, sans-serif; 
   	font-size:16px;
-  	text-align: center;
 #slogan {
 	font-size: 1em;
 }
