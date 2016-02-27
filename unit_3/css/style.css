@@ -3,10 +3,13 @@ body {
 	background-size:cover;
 	background-repeat:no-repeat;
   	color: #222;
-  	font-family: Arial, helvetica, sans-serif;
+  	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; 
   	font-size:16px;
 }
-#slogan {
-	font-size: 2em; 
+h1 {
+	font-size: 3em;
 	font-weight: bold;
+}
+#slogan {
+	font-size: 2em;
 }
