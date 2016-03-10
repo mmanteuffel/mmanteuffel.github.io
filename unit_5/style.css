@@ -1,17 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
-header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 body {
 	background-image: url("../images/spotmktghphero.jpg");
 	background-size: cover;
@@ -20,6 +8,49 @@ body {
   	color: #222;
   	font-family: 'News Cycle', sans-serif;
   	font-size:16px;
+}
+
+#wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#slogan {
+	text-align: left;
+	color: #191919;
+	font-weight: bold;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	text-align: left;
+	font-family: 'Libre Baskerville', serif;
+	color: #222;
+	font-size: 4em;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 1.25em;
+}
+
+#one {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #services {
@@ -40,21 +71,8 @@ body {
 	padding: 20px;
 }
 
-#slogan {
-	text-align: left;
-	color: #191919;
-	font-weight: bold;
-}
-
-h1 {
-	text-align: left;
-	font-family: 'Libre Baskerville', serif;
-	color: #222;
-	font-size: 4em;
-}
-
-h2 {
-	text-align: center;
-	font-family: 'News Cycle', sans-serif;
-	font-size: 1.25em;
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
