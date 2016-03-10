@@ -1,5 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 body {
 	background-image: url("../images/spotmktghphero.jpg");
 	background-size: cover;
@@ -8,6 +20,24 @@ body {
   	color: #222;
   	font-family: 'News Cycle', sans-serif;
   	font-size:16px;
+}
+
+#services {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#results {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#contact {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #slogan {
