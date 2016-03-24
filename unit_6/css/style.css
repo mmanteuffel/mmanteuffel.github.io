@@ -10,6 +10,15 @@ body {
   	font-size:16px;
 }
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 .img-lg {
 	width: 300px;
 }
@@ -68,6 +77,30 @@ h2 {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+#strategy {
+	width: 28%;
+	float: left;
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#social {
+	width: 28%;
+	float: left;
+	background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#seo {
+	width: 28%;
+	float: left;
+	background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 .services {
