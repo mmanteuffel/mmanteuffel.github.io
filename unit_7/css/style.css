@@ -38,7 +38,7 @@ header {
 }
 
 .img-md {
-	width: 400px;
+	width: 300px;
 }
 
 .img-sm {
@@ -84,39 +84,39 @@ h2 {
 }
 
 #strategy {
-	width: 28%;
+	width: 32%;
 	float: left;
-    padding: 20px;
+    padding: 5px;
 }
 
-#social {
-	width: 28%;
+#digital {
+	width: 32%;
 	float: left;
-    padding: 20px;
+    padding: 5px;
 }
 
-#seo {
-	width: 28%;
+#analytics {
+	width: 32%;
 	float: left;
-    padding: 20px;
+    padding: 5px;
 }
 
 .services {
 	padding: 5px;
 }
 
-.services img {
-	display: block;
-	width: 50px;
-	margin: 10px
-}
-
-.results {
-	padding: 20px;
-}
-
 .contact {
-	padding: 20px;
+	padding: 5px;
+}
+
+#contact1 {
+	width: 50%;
+	float: left;
+}
+
+#contact2 {
+	width: 50%;
+	float: left;
 }
 
 footer {
