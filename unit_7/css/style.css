@@ -1,13 +1,23 @@
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
 body {
-	background-image: url("../images/spotmktghphero.jpg");
-	background-size: cover;
-	background-repeat:no-repeat;
+	background-color: #D3D3D3;
 	text-align: center;
   	color: #222;
   	font-family: 'News Cycle', sans-serif;
   	font-size:16px;
+}
+
+header {
+	background-image: url(../images/spotmktghphero.png);
+	background-size: width=100%;
+	background-position: center;
+	background-repeat: none;
+}
+
+.img-logo {
+	float: left;
+	clear: all;
 }
 
 .clearfix:after {
@@ -19,8 +29,16 @@ body {
     height: 0;
 }
 
+.img-feature {
+	width: 100%;
+}
+
 .img-lg {
 	width: 300px;
+}
+
+.img-md {
+	width: 400px;
 }
 
 .img-sm {
@@ -32,14 +50,14 @@ body {
 }
 
 header img {
-	width: 211px;
+	width: 550px;
 	display: block;
 }
 
 #slogan {
-	text-align: left;
+	text-align:left;
 	color: #191919;
-	font-weight: bold;
+	font-size: 1.5em;
 }
 
 nav {
@@ -50,9 +68,9 @@ nav {
 
 h1 {
 	text-align: left;
-	font-family: 'Libre Baskerville', serif;
-	color: #222;
-	font-size: 2em;
+	font-family: 'News Cycle', sans-serif;
+	color: #990000;
+	font-size: 3em;
 }
 
 h2 {
@@ -62,14 +80,12 @@ h2 {
 }
 
 #one {
-	padding: 20px;
+	padding: 5px;
 }
 
 #strategy {
 	width: 28%;
 	float: left;
-	background-color: #FFB7CF;
-    border: 1px black solid;
     padding: 20px;
 }
 
@@ -86,7 +102,7 @@ h2 {
 }
 
 .services {
-	padding: 20px;
+	padding: 5px;
 }
 
 .services img {
