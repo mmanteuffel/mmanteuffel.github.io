@@ -15,6 +15,31 @@ header {
 	background-repeat: none;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7E7E7E;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #A2A2A2;
+}
+
 .img-logo {
 	float: left;
 	clear: all;
@@ -61,9 +86,7 @@ header img {
 }
 
 nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 5px;
 }
 
 h1 {
@@ -120,5 +143,6 @@ h2 {
 }
 
 footer {
+	background-color: #7E7E7E;
 	padding: 20px;
 }
