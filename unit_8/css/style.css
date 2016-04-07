@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+body {
+	background-color: #D3D3D3;
+	text-align: center;
+  	color: #222;
+  	font-family: 'News Cycle', sans-serif;
+  	font-size:16px;
+}
+
+header {
+	background-image: url(../images/spotmktghphero.png);
+	background-size: width=100%;
+	background-position: center;
+	background-repeat: none;
+}
+
+div { 
+	padding: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7E7E7E;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #A2A2A2;
+}
+
+.img-logo {
+	float: left;
+	clear: all;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.img-feature {
+	width: 100%;
+}
+
+.img-lg {
+	width: 300px;
+}
+
+.img-md {
+	width: 300px;
+}
+
+.img-sm {
+	width: 100px;
+}
+
+.img-xs {
+	width: 50px;
+}
+
+.img-face {
+	width: 200px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+header img {
+	width: 550px;
+	display: block;
+}
+
+#slogan {
+	text-align:left;
+	color: #191919;
+	font-size: 1.5em;
+}
+
+nav {
+	padding: 5px;
+}
+
+h1 {
+	text-align: left;
+	font-family: 'News Cycle', sans-serif;
+	color: #990000;
+	font-size: 3em;
+	padding-left: 2%
+}
+
+h2 {
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 1.25em;
+}
+
+#one {
+	padding: 5px;
+}
+
+#strategy {
+	width: 30%;
+	float: left;
+    padding: 1%;
+}
+
+#digital {
+	width: 30%;
+	float: left;
+    padding: 1%;
+}
+
+#analytics {
+	width: 30%;
+	float: left;
+    padding: 1%;
+}
+
+.services {
+	padding: 5px;
+}
+
+.contact {
+	padding: 5px;
+}
+
+#contact1 {
+	width: 40%;
+	float: left;
+}
+
+#contact2 {
+	width: 40%;
+	float: left;
+}
+
+footer {
+	background-color: #7E7E7E;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+	.img-face {
+		display: none;
+	}
+
+}
+@media only screen and (max-width: 440px) {
+	.img-logo {
+		float: none;
+		width: 100%;
+		min-width: 50px;
+
+	}
+
+	ul li, li a {
+		width: 100%;
+		align-items: center;
+	}
+
+	.img-feature {
+		display: none;
+	}
+
+	#strategy, #digital, #analytics {
+		float: none;
+	}
+
+	#contact {
+		float: none;
+	}
+
+	#contact1 {
+		float: none;
+	}
+
+	#contact2 {
+		float: none;
+		align-content: center;
+	}
+
+}
